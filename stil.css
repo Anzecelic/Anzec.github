@@ -1,0 +1,79 @@
+body {
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif; /* Nastavil sem pisavo na Times New Roman */ 
+    margin: 0; /* Odstranil sem zunanji rob. */
+    padding:0; /* Odstranil sem notranji rob. */
+    background-color: white; /* Ozadje starni sem nastavil na belo. */
+    text-align: center; /* Stran sem poravnal na sredino. */
+}  
+
+
+header {
+    background-color: #B19CD9; /* Ozadje glave sem nastavil na svetlo vijolično. */
+    padding: 20px 0;  /* Nastavil sem navpično in vodoravno oborbo glave. */
+    color: black; /* Barvo besedila v glavi sem nastavil na črno. */
+}
+
+img { 
+    margin:auto; /* Slika je na sredini strani. */
+}
+
+h1 {
+    margin:0;  /* Odstranil sem rob okoli naslova. */
+    font-size: 2.5em; /* Povečal sem velikost pisave. */
+}
+
+p {
+    padding-top: 30px; /* Zgornji odmik je 30px. */
+    color: black; /* Barva besedila je črna. */
+    margin:0 auto; /*Sredinska poravnava odstavka. */ 
+    text-align: justify; /* Poravnava besedila na kevo in desno */
+    padding-left: 300px; /* Zamik z leve strani za 300px. */
+    padding-right: 300px; /* Zamik z desne strani zaa  300px */
+    padding-bottom: 30px; /* Spodnja obroba 30px */
+}
+
+nav {
+    background-color: #1E3A8A; /* Ozadje menija je modre barve */
+    padding: 10px 0; /* Dodal sem navpično in vodoravno obrobo */
+}
+
+nav a{
+    margin: 0 30px; /* Ustvarjen je horizonatlni razmik med povezavami v meniju */
+}
+
+a {
+    color: black; /* Barva povezav je črna */
+    text-decoration: none; /* Naredil sem, da povezave niso podčrtane */
+    font-weight: normal; /* Debelina pisave je normalna */
+}
+.meni a {
+    color: white;  /* Barvo povezav v meniju sem nastavil na belo */
+    text-decoration: none; /* Ni podčrtanja */
+    font-weight: bold; /* Povezave so napisane s krepko pisavo */
+    padding: 8px 12px; /*Notranji razmik povezav v meniju */
+    transition: color 0.3s; 
+}
+
+.meni a:hover {
+    color: black; /* Poskrbi, da ko se z miško premaknemo na povezavo se besedilo obarva črno */
+}
+
+
+.meni {
+     padding: 0; /* Odstrani notranji rob v meniju */
+     margin: 0; /* Odstrani zunanji rob  v meniju */
+     display: flex; /* Prikaže elemente v vrstici */
+     justify-content: center; /* Poravna elemente v vrstici na sredino */
+     gap: 30px; /* Razmik med elementi je 30px */
+}
+
+
+
+h2 {
+    background-color: #1E3A8A ; /* Ozadje podnaslovov je temno modro */
+    color: white; /* Barva podnaslovov je bela */
+    padding: 15px; /* Ustvaril sem notranji rob 15px */
+    padding-left: 400PX; /* Levi notranji rob je 400px */
+    padding-right: 400px; /*Desni notranji rob je 400px */
+}
+
